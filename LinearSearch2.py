@@ -37,7 +37,7 @@ def linSearch(plist, find):
     # Returns
     
     if found:
-        return found, count
+        return found, index
 
     else:
         return found, -1
@@ -50,4 +50,5 @@ try:
 
 except Exception as e:
     print("Error Occured", e)
+
 
