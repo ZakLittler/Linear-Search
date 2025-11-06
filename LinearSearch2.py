@@ -27,13 +27,15 @@ def linSearch(plist, find):
     found = False
     index = -1
     
-    for item in plist:
+    for item in plist:    # Runs through the list
         index += 1
         
-        if item == find:
+        if item == find:    # Finds if true
             found = True
             break
 
+    # Returns
+    
     if found:
         return found, count
 
@@ -48,3 +50,4 @@ try:
 
 except Exception as e:
     print("Error Occured", e)
+
